@@ -15,9 +15,9 @@ Sinon :
 ## Demonstration
 
 Exemples avec différentes variantes de configurations de [App.java](src/asciigenerator/App.java) :
-> Les fichiers sources sont disponibles [ici](.github/resultats/).
+> Les fichiers générés sont disponibles [ici](.github/resultats/).
 
-> Les images sources sont disponibles [ici](.github/images/).
+> Les images générées sont disponibles [ici](.github/images/).
 
 ### a) Textes
 
