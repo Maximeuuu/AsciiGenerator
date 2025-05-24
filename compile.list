@@ -1,1 +1,6 @@
 src\asciigenerator\App.java 
+src\asciigenerator\commun\OutilsFichier.java 
+src\asciigenerator\image\AsciiChars.java 
+src\asciigenerator\image\ImageToAscii.java 
+src\asciigenerator\image\OutilsCouleur.java 
+src\asciigenerator\image\OutilsImage.java 
