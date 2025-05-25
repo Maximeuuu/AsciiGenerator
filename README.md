@@ -1,25 +1,39 @@
 # Ascii Generator
 
-## Execution
+## A - General
+
+### A - 1 - Compilation
 
 Dans un terminal windows :
 
-1. `compile.bat`
-2. `run.bat`
+`compile.bat`
 
 Sinon :
 
-1. `javac -cp lib/* @option.list @compile.list`
-2. `java -Dfile.encoding=UTF-8 -cp bin;lib/* asciigenerator.App`
+`javac -cp lib/* @option.list @compile.list`
 
-## Demonstration
+---
 
-Exemples avec différentes variantes de configurations de [App.java](src/asciigenerator/App.java) :
+## B - App Image
+
+### B - 1 - Execution
+
+Dans un terminal windows :
+
+`run-image.bat`
+
+Sinon :
+
+`java -Dfile.encoding=UTF-8 -cp bin;lib/* asciigenerator.image.App`
+
+### B - 2 - Demonstration
+
+Exemples avec différentes variantes de configurations de [App.java](src/asciigenerator/image/App.java) :
 > Les fichiers générés sont disponibles [ici](.github/resultats/).
 
 > Les images générées sont disponibles [ici](.github/images/).
 
-### a) Textes
+#### B - 2 - a) Textes
 
 ![texte 1](.github/images/texte-1.png)
 
@@ -27,13 +41,13 @@ Exemples avec différentes variantes de configurations de [App.java](src/asciige
 
 ![texte 3](.github/images/texte-3.png)
 
-### b) Photos
+#### B - 2 - b) Photos
 
 ![paris 1](.github/images/paris-1.png)
 
 ![paris 2](.github/images/paris-2.png)
 
-### c) Simples
+#### B - 2 - c) Simples
 
 ![swag](.github/images/swag.png)
 
@@ -44,3 +58,70 @@ Exemples avec différentes variantes de configurations de [App.java](src/asciige
 ![bloc 1](.github/images/bloc-1.png)
 
 ![bloc 2](.github/images/bloc-2.png)
+
+---
+
+## C - App Tree
+
+### C - 1 - Execution
+
+Dans un terminal windows :
+
+`run-tree.bat`
+
+Sinon :
+
+`java -Dfile.encoding=UTF-8 -cp bin;lib/* asciigenerator.arborescence.App`
+
+### C - 2 - Demonstration
+
+Exemples avec différentes variantes de configurations de [App.java](src/asciigenerator/arborescence/App.java) :
+
+```txt
+📁 root
+├── 📁 assets
+│   ├── 📁 images
+│   │   └── 📄 logo.png
+│   └── 📁 styles
+│       └── 📄 style.css
+└── 📁 src
+    ├── 📁 core
+    │   └── 📄 Main.java
+    └── 📁 utils
+        ├── 📄 helpers.java
+        └── 📄 parser.java
+```
+
+```txt
+root
+╠═ assets
+║  ╠═ images
+║  ║  ╚═ logo.png
+║  ╚═ styles
+║     ╚═ style.css
+╚═ src
+   ╠═ core
+   ║  ╚═ Main.java
+   ╚═ utils
+      ╠═ helpers.java
+      ╚═ parser.java
+```
+
+```txt
+root
+|-- assets
+|   |-- images
+|   |   `-- logo.png
+|   `-- styles
+|       `-- style.css
+`-- src
+    |-- core
+    |   `-- Main.java
+    `-- utils
+        |-- helpers.java
+        `-- parser.java
+```
+
+## D - App Texte
+
+...
