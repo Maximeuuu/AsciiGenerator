@@ -1,4 +1,8 @@
 src\asciigenerator\App.java 
+src\asciigenerator\arborescence\ArbreToAscii.java 
+src\asciigenerator\arborescence\FileTree.java 
+src\asciigenerator\arborescence\Node.java 
+src\asciigenerator\arborescence\TreeStyle.java 
 src\asciigenerator\commun\OutilsFichier.java 
 src\asciigenerator\image\AsciiChars.java 
 src\asciigenerator\image\ImageToAscii.java 

@@ -1,10 +1,8 @@
-package asciigenerator;
+package asciigenerator.image;
 
 import java.io.File;
 
 import asciigenerator.commun.OutilsFichier;
-import asciigenerator.image.AsciiChars;
-import asciigenerator.image.ImageToAscii;
 
 public class App
 {
